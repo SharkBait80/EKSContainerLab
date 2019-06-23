@@ -27,20 +27,20 @@ A key consideration is to determine what solution elements cannot easily be refa
 
 ### Topical Agenda by Modules
 
-[Module 1 - Configure your Linux Dev Environment](/module-1)
-[Module 2 - Configure your EKS Cluster](/module-2)
-[Module 3 - Configure your Windows Server Dev Environment](/module-3)
-[Module 4 - Build the Sample .NET Framework Application](/module-4)
-[Module 5 - Transform the Sample Application to .NET Core](/module-5)
-[Module 5 - Dockerize the Sample Application ](/module-5)
-[Module 6 - Deploy the Sample Application to your EKS Cluster](/module-6)
-[Module 7 - title](/module-7)
+* [Module 1 - Configure your Linux Dev Environment](/module-1)
+* [Module 2 - Configure your EKS Cluster](/module-2)
+* [Module 3 - Configure your Windows Server Dev Environment](/module-3)
+* [Module 4 - Build the Sample .NET Framework Application](/module-4)
+* [Module 5 - Transform the Sample Application to .NET Core](/module-5)
+* [Module 5 - Dockerize the Sample Application ](/module-5)
+* [Module 6 - Deploy the Sample Application to your EKS Cluster](/module-6)
+* [Module 7 - title](/module-7)
 
 
 ### Workshop Clean-Up (Once Complete)
 Be sure to delete all of the resources created during the workshop in order to ensure that billing for the resources does not continue for longer than you intend.  We recommend that you utilize the AWS Console to explore the resources you've created and delete them when you're ready.
 
-For the two cases where you provisioned resources using AWS CloudFormation, you can remove those resources by simply running the following commands for each stack:
+For the any cases where you provisioned resources using AWS CloudFormation, you can remove those resources by simply running the following commands for each stack:
 
 __AWS CLI__
 ```
@@ -51,8 +51,6 @@ To remove all of the created resources, you can visit the following AWS Consoles
 
 * [AWS Lambda](https://console.aws.amazon.com/lambda/home)
 * [Amazon S3](https://console.aws.amazon.com/s3/home)
-* [Amazon API Gateway](https://console.aws.amazon.com/apigateway/home)
-* [Amazon Cognito](https://console.aws.amazon.com/cognito/home)
 * [Amazon EC2](https://console.aws.amazon.com/ec2/home)
 * [Amazon VPC](https://console.aws.amazon.com/vpc/home)
 * [AWS IAM](https://console.aws.amazon.com/iam/home)
