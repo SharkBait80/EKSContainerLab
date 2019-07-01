@@ -1,4 +1,4 @@
-# Module 5 - Transform the Sample Application to .NET Core
+# Module 7 - Deploy the Sample Application to your EKS Cluster
 
 
 **Time to complete:** 10 minutes
@@ -9,11 +9,12 @@
 ### Overview
 
 
+
 ## Next
 
 Please proceed to the next lesson.
 
-[Proceed to Module 6](/module-6)
+[Proceed to Module 8](/module-8)
 
 
 ## [AWS Developer Center](https://developer.aws)

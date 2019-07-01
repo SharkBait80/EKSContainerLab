@@ -18,13 +18,6 @@ A key consideration is to determine what solution elements cannot easily be refa
 ### TODO : SPEAK TO THE LAB ENVIRONMENT INCLUDING WINDOWS AND LINUX WORKSTATION CONFIGURATION
 
 
-
-
-### Begin the Workshop
-
-[Proceed to Module 1](/module-1)
-
-
 ### Topical Agenda by Modules
 
 * [Module 1 - Configure your Linux Dev Environment](/module-1)
@@ -32,9 +25,9 @@ A key consideration is to determine what solution elements cannot easily be refa
 * [Module 3 - Configure your Windows Server Dev Environment](/module-3)
 * [Module 4 - Build the Sample .NET Framework Application](/module-4)
 * [Module 5 - Transform the Sample Application to .NET Core](/module-5)
-* [Module 5 - Dockerize the Sample Application ](/module-5)
-* [Module 6 - Deploy the Sample Application to your EKS Cluster](/module-6)
-* [Module 7 - title](/module-7)
+* [Module 6 - Dockerize the Sample Application ](/module-6)
+* [Module 7 - Deploy the Sample Application to your EKS Cluster](/module-7)
+* [Module 8 - Test the Application](/module-8)
 
 
 ### Workshop Clean-Up (Once Complete)
@@ -56,6 +49,8 @@ To remove all of the created resources, you can visit the following AWS Consoles
 * [AWS IAM](https://console.aws.amazon.com/iam/home)
 * [AWS CloudFormation](https://console.aws.amazon.com/cloudformation/home)
 
+
+## Begin the Workshop
 
 [Proceed to Module 1](/module-1)
 

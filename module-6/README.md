@@ -1,4 +1,4 @@
-# Module 5 - Transform the Sample Application to .NET Core
+# Module 6 - Dockerize the Sample Application
 
 
 **Time to complete:** 10 minutes
@@ -13,7 +13,7 @@
 
 Please proceed to the next lesson.
 
-[Proceed to Module 6](/module-6)
+[Proceed to Module 7](/module-7)
 
 
 ## [AWS Developer Center](https://developer.aws)

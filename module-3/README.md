@@ -86,6 +86,8 @@ We herein provide guidance on manual configuration of your Windows Server 2019 w
 3. Ensure that your selected region matches the one provided within your Visual Studio configuration above.
 
 
+**NOTE 7/01 : THE DASHBOARD DOESN'T SEEM TO INSTALL ON WINDOWS. DEBUG FURTHER. **
+
 ## Optional - Deploy the Kubernetes Web UI Dashboard (15 minutes)
 
 Installing the Kubernetes Web UI Dashboard on your Windows Server workstation enables you to view your EKS cluster configuration along with job and performance metrics.  The Dashboard requires pre-installation of the Kubernetes command line utility named `kubectl` which enables communication with your EKS cluster API server.
@@ -101,7 +103,6 @@ kubectl version --short --client
 
 2. Follow the instructions [here](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html) and see corresponding project files at [Github](https://github.com/kubernetes/dashboard).
 
-**NOTE: THE DASHBOARD DOESN'T SEE TO INSTALL ON WINDOWS. DEBUG FURTHER. **
 
 
 

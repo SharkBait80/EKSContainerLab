@@ -1,4 +1,5 @@
-# Module 5 - Transform the Sample Application to .NET Core
+# Module 4 - Build the Sample .NET Framework Application
+
 
 
 **Time to complete:** 10 minutes
@@ -9,11 +10,12 @@
 ### Overview
 
 
+
 ## Next
 
 Please proceed to the next lesson.
 
-[Proceed to Module 6](/module-6)
+[Proceed to Module 5](/module-5)
 
 
 ## [AWS Developer Center](https://developer.aws)
