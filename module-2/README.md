@@ -87,14 +87,6 @@ NAME             TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 svc/kubernetes   ClusterIP   10.100.0.1   <none>        443/TCP   1m
 ```
 
-[ TODO - MOVE THE FOLLOWING TO THE WINDOWS SERVER MODULE ]
-
-## Optional - Deploy the Kubernetes Web UI Dashboard
-
-1. Follow the instructions [here](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html) and see corresponding project files at [Github](https://github.com/kubernetes/dashboard).
-
-
-
 
 
 That concludes Module 2.
