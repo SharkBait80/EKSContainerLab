@@ -110,7 +110,7 @@ kubectl version --short --client
 
 That concludes Module 3.
 
-[Proceed to Module 4](/module-4)
+**[Proceed to Module 4](/module-4)**
 
 
 <a id='appendix-a'></a>
