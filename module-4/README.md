@@ -14,7 +14,7 @@ Let's begin with a discussion of the project. Our sample is derived from a real-
 
 The following image illustrates this specific enterprise problem-solution scenario.
 
-[Solution Overview](/images/ApplicationScenario-1.jpg)
+![Solution Overview](/images/ApplicationScenario-1.jpg)
 
 ## Next
 

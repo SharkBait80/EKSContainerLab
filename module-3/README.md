@@ -21,15 +21,14 @@ Your Windows workstation environment needs to have the following tools configura
 3. AWS Tools for Visual Studio (https://aws.amazon.com/developer/language/net/tools/)
 4. AWS Command Line Tools (aws)  (https://aws.amazon.com/cli/)
 5. .NET Portability Analyzer (https://marketplace.visualstudio.com/items?itemName=ConnieYau.NETPortabilityAnalyzer)
-6. Cmder (https://cmder.net)
-7. 
+6. Cmder (https://cmder.net) 
 
 
 **Your Windows Workstation - A Remote AWS Windows Server 2019 AMI Instance**
 
 1. For this lab, we utilize an EC2 hosted **Microsoft Windows Server 2019 Base with Containers** instance.  This Amazon Machine Image (AMI) is preconfigured to support Docker Containers.
 2. Don't know how to create an EC2 instance?  Please refer to step-wise documentation at (https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/). 
-3. When creating your AMI instance, be sure to choose an attached disk size of 60 GByte.  The default of 30 GByte may be too small to contain our software packages.
+3. When creating your AMI instance, **be sure to choose an attached disk size of 60 GByte**.  The default of 30 GByte may be too small to contain our software packages.
 4. When creating your AMI instance, be sure to select the **Microsoft Windows Server 2019 Base with Containers** AMI-type.  We recommend utilizing a **t2.xlarge** or better host-machine type. 
 5. Refer to  <a href="#appendix-a">**Appendix A**</a> herein for instructions on accessing your AMI instance via Remote Desktop Protocol (RDP). 
 
