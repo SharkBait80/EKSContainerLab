@@ -11,11 +11,11 @@ Ultimately, a Container based solution can account for each of these modernizati
 
 A key consideration is to determine what solution elements cannot easily be refactored. Common .NET Framework application dependencies such as the Windows Registery, third-party libraries, file system APIs, IIS integrations, and data-access technologies, are now considered anti-patterns relative to Cloud Native architectures.
 
+Herein, we illustrate a basic replatforming of a Windows Console application with the following objectives:
 
-### TODO : ILLUSTRATE THE SOLUTION ARCHITECTURE AND AWS TECHNOLOGIES
-
- 
-### TODO : SPEAK TO THE LAB ENVIRONMENT INCLUDING WINDOWS AND LINUX WORKSTATION CONFIGURATION
+* Rebuild from .NET Framework 4.x to .NET Core 2.x
+* Replatform from Windows to Linux
+* Rehost to Containers on an Amazon EKS Cluster
 
 
 ### Topical Agenda by Modules
@@ -25,7 +25,7 @@ A key consideration is to determine what solution elements cannot easily be refa
 * [Module 3 - Configure your Windows Server Dev Environment](/module-3)
 * [Module 4 - Build the Sample .NET Framework Application](/module-4)
 * [Module 5 - Transform the Sample Application to .NET Core](/module-5)
-* [Module 6 - Dockerize the Sample Application ](/module-6)
+* [Module 6 - Dockerize the Sample Application](/module-6)
 * [Module 7 - Deploy the Sample Application to your EKS Cluster](/module-7)
 * [Module 8 - Test the Application](/module-8)
 
