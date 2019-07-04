@@ -14,7 +14,7 @@
 
 Please proceed to the next lesson.
 
-[Proceed to Module 8](/module-8)
+**[Proceed to Module 8](/module-8)**
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)

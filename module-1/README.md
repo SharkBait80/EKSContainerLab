@@ -153,7 +153,7 @@ aws configure
 
 Please proceed to the next lesson.
 
-[Proceed to Module 2](/module-2)
+**[Proceed to Module 2](/module-2)**
 
 
 
@@ -200,4 +200,4 @@ Because you are using a key pair for authentication, you will not be prompted fo
 <a id='ssh-after'></a>
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)

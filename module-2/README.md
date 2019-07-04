@@ -13,7 +13,7 @@
 
 In this module, we will use `eksctl` to launch and configure our EKS cluster and worker nodes.
 
-[eksctl](https://eksctl.io/) is a tool jointly developed by AWS and [Weaveworks](https://www.weave.works/) that automates much of the experience of creating EKS clusters.
+**[Eksctl](https://eksctl.io/)** is a tool jointly developed by AWS and [Weaveworks](https://www.weave.works/) that automates much of the experience of creating EKS clusters.
 
 Alternative approaches for EKS cluster creation include using CloudFormation, the AWS CLI, the AWS Console, or several third-party automation tools.  A complete reference architecture is available [here](https://github.com/thestacks-io/eks-cluster).
 
@@ -99,7 +99,7 @@ Installing the Kubernetes Web UI Dashboard on your client workstation enables yo
 
 That concludes Module 2.
 
-[Proceed to Module 3](/module-3)
+**[Proceed to Module 3](/module-3)**
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)

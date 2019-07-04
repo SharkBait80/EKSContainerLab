@@ -52,10 +52,10 @@ To remove all of the created resources, you can visit the following AWS Consoles
 
 ## Begin the Workshop
 
-[Proceed to Module 1](/module-1)
+**[Proceed to Module 1](/module-1)**
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)
 
 
 

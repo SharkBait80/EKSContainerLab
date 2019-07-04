@@ -20,7 +20,7 @@ The following image illustrates this specific enterprise problem-solution scenar
 
 Please proceed to the next lesson.
 
-[Proceed to Module 5](/module-5)
+**[Proceed to Module 5](/module-5)**
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)

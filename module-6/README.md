@@ -13,7 +13,7 @@
 
 Please proceed to the next lesson.
 
-[Proceed to Module 7](/module-7)
+**[Proceed to Module 7](/module-7)**
 
 
-## [AWS Developer Center](https://developer.aws)
+### [AWS Developer Center](https://developer.aws)
