@@ -34,6 +34,9 @@ Your Windows workstation environment needs to have the following tools configura
 
 **Proceed with installation of the following tools only after completion of the above EC2 instance creation.  Lab instructions are to be executed from a RDP client application connection to that EC2 instance.**
 
+![Windows Server 2019 AMI](/images/module-3/WindowsServer2019-1.jpg)
+
+
 ## Update and configure your Windows Workstation
 
 We herein provide guidance on manual configuration of your Windows Server 2019 workstation.  This approach could be automated, but there is instructive value in a manual configuration as several tools have dependencies that must be established for development purposes.
@@ -67,7 +70,7 @@ We herein provide guidance on manual configuration of your Windows Server 2019 w
 4. Search for **.NET Portability Analyzer**.  Select the resultant extension package.
 5. Close Visual Studio in order to start the installation of these extensions.
 
-![VisualStudioExtension](/images/WindowsAMI-VStudioExtensions.jpg)
+![VisualStudioExtension](/images/module-3/WindowsAMI-VStudioExtensions.jpg)
 
 ### Configure Visual Studio with your AWS Account Credentials
 
@@ -111,7 +114,7 @@ That concludes Module 3.
 
 
 <a id='appendix-a'></a>
-## Appendix B : Connect to your Windows Server 2019 Development Environment
+## Appendix A : Connect to your Windows Server 2019 Development Environment
 
 ### Connect to Your EC2 Development Instance
 
@@ -119,11 +122,11 @@ You should have already created an EC2 instance.  You will use an RDP client (su
 
 1. Open the *Instances* view within the *AWS EC2 Console*.  Select your Windows Server instance and press *Connect* as illustrated.
 
-![AWS EC2 Console](/images/WindowsAMI-Connect-1)
+![AWS EC2 Console](/images/module-3/WindowsAMI-Connect-1)
 
 2. From the *Connect to your Instance* dialog window, press *Download Remote Desktop File* and subsequently press the *Get Password* button.  Save this password to a text file for subsequent copy/paste usage.
 
-![Downlaod RDP File](/images/WindowsAMI-Connect-2)
+![Downlaod RDP File](/images/module-3/WindowsAMI-Connect-2)
 
 If you are running Mac OS X, <a href="#rdp-MACLinux">skip to the MAC specific section below</a>.
 
