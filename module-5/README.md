@@ -8,16 +8,16 @@ In this module, we introduce a fix for the observed .NET Core compatibility issu
 
 There are several tools available when [porting existing code to .NET Core](https://docs.microsoft.com/en-us/dotnet/core/porting/index).  
 
-* Use the [Microsoft.Windows.Compatibility](https://docs.microsoft.com/en-us/dotnet/core/porting/windows-compat-pack) to import .NET extension classes that resolve numerous .NET Core incompatibilities.
+* Use the [Microsoft.Windows.Compatibility](https://docs.microsoft.com/en-us/dotnet/core/porting/windows-compat-pack) NuGet package to import .NET extension classes that resolve numerous .NET Core incompatibilities.
 
 * Use the [API Analyzer](https://devblogs.microsoft.com/dotnet/introducing-api-analyzer/) to identify issues when targeting a cross-platform migration (e.g. when moving the code from Windows to Linux).
 
-* Use the [.NET Portability Analyzer](https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer) to discover incompatibilities with multiple frameworks and platforms.
+* Use the [.NET Portability Analyzer](https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer) to discover incompatibilities when targetting multiple frameworks and platforms.
 
 
 ## Import the Microsoft.Windows.Compatibility NuGet Package
 
-This package will help to resolve a myriad of class library issues including the *System.Data.DataTable.AsEnumerable()* observed in the last module.
+This package will help to resolve a myriad of class library issues including the *System.Data.DataTable.AsEnumerable()* error observed in the last module.
 
 1. Open the *Package Manager Console* from the **Tools** --> **NuGet Package Manager** menu. The Package Manager Console should appear as a tab'ed window alongside the Output tab within Visual Studio.
 
@@ -38,7 +38,7 @@ PM> Install-Package Microsoft.Windows.Compatibility
 
 2. Note that the previously seen build error message has disappeared.  
 
-3. Now, press **F5** to launch the Debugger.  Note the opening of the Console window and transformation of the sample input file.
+3. Now, press **F5** to launch the Debugger.  Note the opening of a Debugger Console window and transformation of the sample input file.
 
 ![Debug Output](/images/module-5/DebugOutput-1.jpg)
 
