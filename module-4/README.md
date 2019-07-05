@@ -75,17 +75,17 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 ![View Properties](/images/module-4/ViewSolutionProperties-1.jpg)
 
-3. Press `F5` to build the Solution.  Or, right-click the *Soluton 'VLanMigrate'* node in the Solution Explore and select *Rebuild Solution*.
+3. Press `F5` to build the Solution.  Or, right-click the *Solution 'VLanMigrate'* node in the Solution Explore and select *Rebuild Solution*.
 
 4. Observe the resultant build error list. 
 
-![View Build Errors](/images/module-4/ViewBuildErrorList-1.jpg)
+![View Build Errors](/images/module-4/ViewBuildErrorList-2.jpg)
 
-5. Click on the first error within the Error List and see the resultant code-section that is incompatible with the *.NET Core 2.x* System.Data class library.
+5. Click on the error within the Error List and see the resultant code-section that is incompatible with the *.NET Core 2.x* System.Data class library.
 
-![View Incompatible Code](/images/module-4/ViewIncompatibleCode-1.jpg)
+![View Incompatible Code](/images/module-4/ViewIncompatibleCode-2.jpg)
 
-6. Actually, all four of the errors listed are related to the same class library incompatibility issue.  This is the easy case in .NET Framework migrations.  Analyzing the code at line 188 in file *Program.cs* indicates that the *System.Data.DataTable.AsEnumerable()* function is missing from the *.NET Core 2.x* class library. Also, the *DataRow.Field<>()* function is missing from the same class library. Unfortunately, similar *Rows & Columns* type coding is common-place with enterprise application development.  In the next module, we will introduce a fix for this build issue.
+6. This is the easy case with .NET Core migrations.  Analyzing the code at line 188 in file *Program.cs* indicates that the *System.Data.DataTable.AsEnumerable()* function is missing from the *.NET Core 2.x* class library. Unfortunately, similar *Rows & Columns* type coding is common-place with enterprise application development.  In the next module, we will introduce a fix for this build issue.
 
 ## Next
 
