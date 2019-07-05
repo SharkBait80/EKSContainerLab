@@ -58,7 +58,7 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 2. Click on the `CLICK-HERE` short-cut to open a Command window displaying application usage instructions.
 
-![Open the CLICK-HERE short-cut](/images/module-4/ClickOnCLickHere-1.jpg)
+![Open short-cut](/images/module-4/ClickOnCLickHere-1.jpg)
 
 3. Read the usage instructions.  Then, select the example command line and copy it to the command prompt as illustrated.
 
@@ -66,7 +66,7 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 4. The application should parse the `SampleVLANs.txt` file and produce output corresponding to the following.  See the output files within the  auto-generated `.\SampleVLANs` folder.  Two files are generated, one for each router pair.
 
-![View Results](/images/module-4/LaunchDemo-4.jpg)
+![View Results](/images/module-4/LaunchDemo-3.jpg)
 
 
 ### Build the Solution as Configured
