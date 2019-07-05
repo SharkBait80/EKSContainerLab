@@ -16,6 +16,35 @@ The following image illustrates this specific enterprise problem-solution scenar
 
 ![Solution Overview](/images/module-4/ApplicationScenario-1.jpg)
 
+### Download the Source Files
+
+You should already have a Remote Desktop session open onto your Windows Server 2019 Dev Workstation (if not, see module 3).
+
+1. Open a Command shell (e.g. Cmder.exe or Command.exe), and create a project folder.
+
+``` shell
+mkdir c:\myprojects
+```
+``` shell
+cd /d c:\myprojects
+```
+
+2. Download and unzip the project files. 
+
+``` shell 
+curl -L -o VLanMigrationProject.zip https://github.com/UsefulEngines/EKSContainerLab/blob/master/module-4/source/VLanMigrationProject.zip?raw=true
+```
+
+3. Note that you may need to ensure that the zip file uncompresses without any hidden or read-only file and folder attributes as illustrated.
+
+![Unzip the Project File](/images/module-4/DownloadProjectZipFile-1.jpg)
+
+
+### Open the Visual Studio Solution File
+
+1. 
+
+
 ## Next
 
 Please proceed to the next lesson.
