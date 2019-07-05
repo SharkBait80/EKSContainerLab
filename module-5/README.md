@@ -29,7 +29,7 @@ PM> Install-Package Microsoft.Windows.Compatibility
 
 3. Note that the package installs as a NuGet dependency within the project as illustrated.
 
-![WindowsCompatibilityPackage](/image/module-5/MicrosoftWindowsCompatibilityNuget-1.jpg)
+![WindowsCompatibilityPackage](/images/module-5/MicrosoftWindowsCompatibilityNuget-1.jpg)
 
 
 ## Rebuild and Test the Solution
@@ -45,7 +45,7 @@ PM> Install-Package Microsoft.Windows.Compatibility
 
 ## Configure the .NET Portability Analyzer
 
-1. Recall that you previously installed the *.NET Portability Analyzer* Visual Studio extension during module 3.  Now, let's configure this extension to investigate our solution for code that would be inconpatible with various *.NET Core* target versions.  
+1. Recall that you previously installed the *.NET Portability Analyzer* Visual Studio extension during module 3.  Now, let's configure this extension to investigate our solution for code that would be incompatible with various *.NET Core* target versions.  
 
 2. Right-click the *VlanMigrate* project name within the Solution Explorer.  Then select the **Portability Analyzer Settings** menu option.
 
