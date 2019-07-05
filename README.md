@@ -9,11 +9,11 @@ Application modernization presents designers with a spectrum of technology migra
 
 Ultimately, a Container based solution can account for each of these modernization scenarios.  Legacy applications tend to exist in maintenance mode with few dedicated software development resources.  Hence retaining some or all of the existing solution architecture and rehosting Virtual Machines may be the only viable first step.
 
-If the "right answer" for your workload is a "lift and shift" approach, then perhaps the **[image2Docker](https://github.com/docker/communitytools-image2docker-win)** utility would enable a migration path towards Containers and reduce your Virtual Machine dependency. 
+If the "right answer" for your workload is a "lift and shift" approach, then perhaps the **[image2Docker](https://github.com/docker/communitytools-image2docker-win)** utility would enable a migration path towards Containers and thus reduce your Virtual Machine dependency. 
 
 Herein, we pursure more of an application *replatforming + refactoring* approach.  A key consideration is to determine what solution elements cannot easily be refactored. Common .NET Framework application dependencies such as the Windows Registery, third-party libraries, file system APIs, IIS integrations, and data-access technologies, are now considered anti-patterns relative to Cloud Native architectures.  
 
-Herein, we illustrate modernization an enterprise-class Windows Console application with the following objectives:
+Herein, we illustrate modernization of an enterprise-class Windows Console application with the following objectives:
 
 * Rebuild from .NET Framework 4.x to .NET Core 2.x
 * Replatform from Windows to Linux
