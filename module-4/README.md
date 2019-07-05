@@ -16,11 +16,12 @@ The following image illustrates this specific enterprise problem-solution scenar
 
 ![Solution Overview](/images/module-4/ApplicationScenario-1.jpg)
 
+
 ### Download the Source Files
 
 You should already have a Remote Desktop session open onto your Windows Server 2019 Dev Workstation (if not, see module 3).
 
-1. Open a Command shell (e.g. Cmder.exe or Command.exe), and create a project folder.
+1. Open a `C:\Cmder\Cmder.exe` command shell and create a project folder.
 
 ``` shell
 mkdir c:\myprojects
@@ -34,16 +35,45 @@ cd /d c:\myprojects
 ``` shell 
 curl -L -o VLanMigrationProject.zip https://github.com/UsefulEngines/EKSContainerLab/blob/master/module-4/source/VLanMigrationProject.zip?raw=true
 ```
-
-3. Note that you may need to ensure that the zip file uncompresses without any hidden or read-only file and folder attributes as illustrated.
-
-![Unzip the Project File](/images/module-4/DownloadProjectZipFile-1.jpg)
+``` shell
+unzip VLanMigrationProject.zip
+```
 
 
 ### Open the Visual Studio Solution File
 
-1. 
+1. Use VLanMigrate solution folder.
 
+``` shell
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" vlanmigrate.sln
+``` 
+
+### Run the Demo Build
+
+The solution files include a `DEMO` subfolder with a prebuilt version of this application.  This is a .NET Framework 4.x version build of the application.
+
+1. Within Visual Studio Solution Explorer, right-click on the `DEMO` folder and select *Open Folder in File Explorer* from the menu.
+
+![Open the DEMO Folder](/images/module-4/RightClickDemoFolder-1.jpg)
+
+2. Click on the `CLICK-HERE` short-cut to open a Command window displaying application usage instructions.
+
+![Open the CLICK-HERE short-cut](/images/module-4/ClickOnCLickHere-1.jpg)
+
+3. Read the usage instructions.  Then, select the example command line and copy it to the command prompt as illustrated.
+
+![Copy the Command Line](/images/module-4/LaunchDemo-2.jpg)
+
+4. The application should parse the `SampleVLANs.txt` file and produce output corresponding to the following.  See the output files within the  auto-generated `.\SampleVLANs` folder.  Two files are generated, one for each router pair.
+
+![View Results](/images/module-4/LaunchDemo-4.jpg)
+
+
+### Build the Solution as Configured
+
+1. Within Visual Studio Solution Explorer, right-click the `VLanMigrate` project name (it should appear bolded).  Select the *Properties* menu item.  Note that the *Target Framework* property is currently set to *.NET Core 2.1*.  At the time of this writing, *.NET Core 2.2* was the latest version released.  But also, AWS Linux AMIs' were configured to support *.NET Core 2.1*.  Hence, we will target the *.NET Core 2.1* SDK version.
+
+![View Properties](/images/module-4/ViewSolutionProperties-1.jpg)
 
 ## Next
 
