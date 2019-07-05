@@ -71,9 +71,22 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 ### Build the Solution as Configured
 
-1. Within Visual Studio Solution Explorer, right-click the `VLanMigrate` project name (it should appear bolded).  Select the *Properties* menu item.  Note that the *Target Framework* property is currently set to *.NET Core 2.1*.  At the time of this writing, *.NET Core 2.2* was the latest version released.  But also, AWS Linux AMIs' were configured to support *.NET Core 2.1*.  Hence, we will target the *.NET Core 2.1* SDK version.
+1. Within Visual Studio Solution Explorer, right-click the `VLanMigrate` project name (it should appear bolded).  Select the *Properties* menu item.  
+ 
+2. Note that the *Target Framework* property is currently set to *.NET Core 2.1*.  At the time of this writing, *.NET Core 2.2* was the latest version released.  But also, our target platform, the **.NET Core 2.1 with Amazon Linux 2 - Version 1.0** AWS AMI is configured to support only *.NET Core 2.1*.  Hence, we will target the *.NET Core 2.1* SDK version.
 
 ![View Properties](/images/module-4/ViewSolutionProperties-1.jpg)
+
+3. Press `F5` to build the Solution.  Or, right-click the *Soluton 'VLanMigrate'* node in the Solution Explore and select *Rebuild Solution*.
+
+4. Observe the resultant build error list. 
+
+![View Build Errors](/images/module-4/ViewBuildErrorList-1.jpg)
+
+5. Click on the first error within the Error List and see the resultant code-section that is incompatible with the *.NET Core 2.x* framework.
+
+![View Incompatible Code](/images/module-4/ViewIncompatibleCode-1.jpg)
+
 
 ## Next
 
