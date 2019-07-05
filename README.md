@@ -1,19 +1,21 @@
 
 # .NET Framework Application Modernization using .NET Core, Docker Containers, and Amazon EKS
 
-Application modernization presents designers with a spectrum of technology migration options including:
+Application modernization presents designers with a spectrum of technology migration challenges including:
 
 * Do we retain the current monolithic application architecture?
 * Shall we refactor the application architecture using a Cloud Native model?
 * Given time and resource constraints, should we simply replatform the application using Virtual Machines?
 
-Ultimately, a Container based solution can account for each of these modernization scenarios.  Legacy applications tend to exist in maintenance mode with few dedicated software development resources.  Hence retaining some or all of the existing solution architecture and rehosting via Virtual Machines may be the only viable first step.
+Ultimately, a Container based solution can account for each of these modernization scenarios.  
+
+Legacy applications tend to exist in maintenance mode with few dedicated software development resources.  Hence, retaining some or all of the existing solution architecture and rehosting via Virtual Machines may be the only viable first step.
 
 If the "right answer" for your workload is a "lift and shift" approach, then perhaps the **[image2Docker](https://github.com/docker/communitytools-image2docker-win)** utility would enable a migration path towards Containers and thus reduce a costly Virtual Machine dependency. 
 
-Herein, we pursure more of an application *replatforming + refactoring* approach.  A key consideration is to determine what solution elements cannot easily be refactored. Common .NET Framework application dependencies such as the Windows Registery, third-party libraries, file system APIs, IIS integrations, and data-access technologies, are now considered anti-patterns relative to Cloud Native architectures.  
+Herein, we pursure more of an application *replatforming + refactoring* approach with a typical enterprise-class *.NET 4.x Framework* based application.  A key consideration is to determine what solution elements cannot easily be refactored. Common .NET Framework application dependencies such as the Windows Registery, third-party libraries, file system APIs, IIS integrations, and data-access technologies, are now considered anti-patterns relative to Cloud Native architectures.  
 
-This article illustrates modernization of an enterprise-class Windows Console application with the following objectives:
+This article illustrates application [modernization](https://docs.microsoft.com/en-us/dotnet/core/porting/index) with the following objectives:
 
 * Rebuild from .NET Framework 4.x to .NET Core 2.x
 * Replatform from Windows to Linux
