@@ -1,4 +1,4 @@
-# Module 4 - Build the Sample .NET Framework Application
+# Module 4 - Build the Sample .NET Application
 
 
 **Time to complete:** 10-15 minutes
@@ -85,7 +85,7 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 ![View Incompatible Code](/images/module-4/ViewIncompatibleCode-2.jpg)
 
-6. This is the easy case with .NET Core migrations.  Analyzing the code at line 188 in file *Program.cs* indicates that the *System.Data.DataTable.AsEnumerable()* function is missing from the *.NET Core 2.x* class library. Unfortunately, similar *Rows & Columns* type coding is common-place with enterprise application development.  In the next module, we will introduce a fix for this build issue.
+6. This is the easy case with .NET Core migrations.  Analyzing the code at line 188 in file *Program.cs* indicates that the *System.Data.DataTable.AsEnumerable()* function is missing from the *.NET Core 2.x* class library. Unfortunately, similar *Rows & Columns* type code is common-place with enterprise applications.  In the next module, we will introduce a fix for this build issue.
 
 ## Next
 
