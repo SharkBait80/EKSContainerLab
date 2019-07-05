@@ -1,9 +1,7 @@
 # Module 4 - Build the Sample .NET Framework Application
 
 
-**Time to complete:** 15 minutes
-
-**Services used:**
+**Time to complete:** 10-15 minutes
 
 
 ### Overview
@@ -83,10 +81,11 @@ The solution files include a `DEMO` subfolder with a prebuilt version of this ap
 
 ![View Build Errors](/images/module-4/ViewBuildErrorList-1.jpg)
 
-5. Click on the first error within the Error List and see the resultant code-section that is incompatible with the *.NET Core 2.x* framework.
+5. Click on the first error within the Error List and see the resultant code-section that is incompatible with the *.NET Core 2.x* System.Data class library.
 
 ![View Incompatible Code](/images/module-4/ViewIncompatibleCode-1.jpg)
 
+6. Actually, all four of the errors listed are related to the same class library incompatibility issue.  This is the easy case in .NET Framework migrations.  Analyzing the code at line 188 in file *Program.cs* indicates that the *System.Data.DataTable.AsEnumerable()* function is missing from the *.NET Core 2.x* class library. Also, the *DataRow.Field<>()* function is missing from the same class library. Unfortunately, similar *Rows & Columns* type coding is common-place with enterprise application development.  In the next module, we will introduce a fix for this build issue.
 
 ## Next
 

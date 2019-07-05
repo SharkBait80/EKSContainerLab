@@ -8,7 +8,6 @@
 * [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 
 
-
 ## Overview
 
 In this module, we will use `eksctl` to launch and configure our EKS cluster and worker nodes.
