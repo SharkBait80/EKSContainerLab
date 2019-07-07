@@ -8,6 +8,8 @@
 
 ### Overview
 
+[Visual Studio Tools for Docker](https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker)
+
 
 ## Next
 
