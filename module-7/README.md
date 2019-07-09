@@ -17,7 +17,7 @@ Follow the [instructions here](https://docs.aws.amazon.com/AmazonECR/latest/user
 
 Once you have pushed your image to ECR, you can deploy it to your EKS cluster that you setup in module 2. Kubernetes supports ECR as a private repository, [as detailed here](https://kubernetes.io/docs/concepts/containers/images/#using-aws-ec2-container-registry).
 
-To deploy your image onto EKS, use the "kubectl run" command, passing in the name of your application and the URL to your image in ECR.
+To deploy your image onto EKS, use the "kubectl run" command, passing in the name of your application and the URL to your image in ECR. You can also see the status of the deployment using the "kubectl get deployment" command.
 
 
 ## Next
