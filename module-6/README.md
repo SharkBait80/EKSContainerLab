@@ -1,7 +1,7 @@
 # Module 6 - Dockerize the Sample Application
 
 
-**Time to complete:** 10 minutes
+**Time to complete:** 20 minutes
 
 **Services used:**
 
@@ -16,8 +16,13 @@ Firstly, install [Visual Studio Tools for Docker](https://docs.microsoft.com/en-
 
 ![Adding Docker support from Visual Studios](/images/module-6/AddDockerSupport-2.jpg)
 
-Visual Studio should have created a Dockerfile for you. The next step is to run the application in a container, following [this guide](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container#create-a-container).
+Visual Studio should have created a Dockerfile for you. The next step is to run the application in a container, following [this guide](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container#create-the-dockerfile).
 
+Tips:
+
+_The application expects an input file which isn't copied into the Docker image by default. How can you get this copied into the right location?_
+
+_You might see errors like 'duplicate assembly information', which is caused by the presence of an AssemblyInfo.cs file in your project having updated from .NET to .NET Core. You should delete this to prevent them from being included in the build._
 
 ## Next
 

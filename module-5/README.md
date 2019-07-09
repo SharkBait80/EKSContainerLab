@@ -1,6 +1,6 @@
 # Module 5 - Enable .NET Core Application Compatibility
 
-**Time to complete:** 10 minutes
+**Time to complete:** 20 minutes
 
 ### Overview
 
