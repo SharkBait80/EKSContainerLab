@@ -1,4 +1,4 @@
-# Module 7 - Deploy the Sample Application to your EKS Cluster
+# Module 8 - Test Your Application on EKS
 
 
 **Time to complete:** 20 minutes
@@ -13,7 +13,9 @@
 
 ### Overview
 
-In order to check to see if your application is running on your cluster, you can view the logs from pods.
+In this module, we will test our application to check if it is running properly on our EKS cluster.
+
+In order to check application output, you can view the logs from pods.
 
 To get the name of the pods running on your nodes, use the "kubectl get pods" command.
 
