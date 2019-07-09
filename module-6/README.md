@@ -15,7 +15,7 @@ Firstly, install [Visual Studio Tools for Docker](https://docs.microsoft.com/en-
 
 ![Adding Docker support from Visual Studios](/images/module-6/AddDockerSupport-2.jpg)
 
-To understand how to containerize applications without the help of an IDE, read [this](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container) guide.
+Visual Studio should have created a Dockerfile for you. The next step is to run the application in a container, following [this guide](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container#create-a-container).
 
 
 ## Next
